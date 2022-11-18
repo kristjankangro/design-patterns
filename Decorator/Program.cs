@@ -1,18 +1,22 @@
-﻿using Decorator;
-
-Console.Title = "Decorator";
+﻿using Decorator.ConcreteComponents;
+using Decorator.ConcreteDecorators;
 
 var cms = new CloudMailService();
-cms.SendMail("testi mess");
+cms.SendMail("tere1");
 
-var ops = new OnPremiseMailService();
-ops.SendMail("testi mess 2");
+var os = new OnPremiseMailService();
+os.SendMail("tere 2");
 
 var sd = new StatsDecorator(cms);
-sd.SendMail("message 3");
+sd.SendMail("tere 3 via stats");
 
-var dbd = new DataBaseDecorator(ops);
-dbd.SendMail("Message 4");
+var dd = new MessageDatabaseDecorator(os);
+dd.SendMail("tere 4");
+dd.SendMail("tere 5");
+
+foreach (var msg in dd.SenMessages)
+{
+    Console.WriteLine($"sent: {msg}");
+}
 
 
- 

@@ -2,11 +2,8 @@
 
 Console.Title = "Bridge";
 
-var coup1 = new OneCoupon();
-var coup2 = new TwoCoupon(); 
-
-var mm = new MeatMenu(coup1);
+var mm = new MeatMenu(new OneCoupon());
 Console.WriteLine($"meat menu {mm.CalculatePrice()}");
 
-var vm = new VegMenu(coup2);
+var vm = new VegMenu(new TwoCoupon());
 Console.WriteLine($"veg menu {vm.CalculatePrice()}");

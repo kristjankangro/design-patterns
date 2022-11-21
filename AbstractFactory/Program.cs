@@ -1,9 +1,11 @@
-﻿using AbstractFactory;
+using AbstractFactory;
+using AbstractFactory.Client;
+using AbstractFactory.ConcreteFactories;
 
 Console.Title = "Abstract Factory";
 
-var belgiumCart = new ShoppingCart(new BelgiumShoppingCartPurchaseFactory());
-belgiumCart.CalculateCosts();
+var cartForBelgium = new ShoppingCart(new BeCartPurchaseFactory());
+cartForBelgium.CalculateCosts();
 
-var franceCart = new ShoppingCart(new FranceShoppingCartPurchaseFactory());
-franceCart.CalculateCosts();
+var cartForFrance = new ShoppingCart(new FrCartPurchaseFactory());
+cartForFrance.CalculateCosts();

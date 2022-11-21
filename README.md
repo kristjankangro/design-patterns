@@ -1,20 +1,20 @@
 # design-patterns
 
 Creational 
-1. singleton
-2. factory
-3. abstract factory
-4. Builder
-5. Prototype (Clone)
+1. +singleton
+2. +factory
+3. +abstract factory
+4. +builder
+5. +prototype (Clone)
 
 Structural
-6. adapter
-7. bridge
-8. Decorator
-9. Composite (File/Directory recursive)
-10. Facade
-11. Proxy
-12. Flyweight
+6. +adapter
+7. +bridge
+8. +decorator
+9. +composite (File/Directory recursive)
+10. +facade
+11. proxy
+12. flyweight
 
 Behavioural
 13. template

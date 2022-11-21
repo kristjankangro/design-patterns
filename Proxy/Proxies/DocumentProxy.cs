@@ -1,6 +1,6 @@
 ﻿namespace Proxy;
 
-public class DocumentProxy1 : IDocument
+/*public class DocumentProxy : IDocument
 {
     // private Document? _document;
     private Document? _document;
@@ -18,7 +18,7 @@ public class DocumentProxy1 : IDocument
 
         _document.ShowDocument();
     }
-}
+}*/
 
 public class DocumentProxy : IDocument
 {

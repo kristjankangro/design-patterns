@@ -2,12 +2,12 @@
 
 public abstract class MailParser
 {
-    public virtual void FindServer()
+    protected virtual void FindServer()
     {
         Console.WriteLine("Finding server ...");
     }
 
-    public abstract void AuthServer();
+    protected abstract void AuthServer();
 
     private string ParseHtmlMailBody(string code)
     {

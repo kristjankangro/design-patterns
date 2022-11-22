@@ -4,7 +4,7 @@ namespace TemplateMethod;
 
 public class ExchangeMailParser : MailParser
 {
-    public override void AuthServer()
+    protected override void AuthServer()
     {
         Console.WriteLine("connecting to exchange server");
     }

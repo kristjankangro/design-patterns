@@ -4,7 +4,7 @@ namespace TemplateMethod;
 
 public class ApacheMailParser : MailParser
 {
-    public override void AuthServer()
+    protected override void AuthServer()
     {
         Console.WriteLine("connecting to Apache server");
     }

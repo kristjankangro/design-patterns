@@ -17,7 +17,7 @@ Structural
 12. +flyweight
 
 Behavioural
-13. template
+13. +template
 14. strategy
 15. command
 16. memento

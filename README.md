@@ -13,8 +13,8 @@ Structural
 8. +decorator
 9. +composite (File/Directory recursive)
 10. +facade
-11. +proxy -todo chaining
-12. flyweight
+11. +proxy
+12. +flyweight
 
 Behavioural
 13. template

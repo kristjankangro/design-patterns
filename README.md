@@ -18,7 +18,7 @@ Structural
 
 Behavioural
 13. +template
-14. strategy
+14. +strategy
 15. command
 16. memento
 17. mediator

@@ -1,13 +1,13 @@
 # design-patterns
 
-Creational 
+### Creational 
 1. +singleton
 2. +factory
 3. +abstract factory
 4. +builder
 5. +prototype (Clone)
 
-Structural
+### Structural
 6. +adapter
 7. +bridge
 8. +decorator
@@ -16,11 +16,11 @@ Structural
 11. +proxy
 12. +flyweight
 
-Behavioural
+### Behavioural
 13. +template
 14. +strategy
-15. +command
-16. memento
+15. +command (invoke, undo) ?veel uurida
+16. +memento (command+) ?veel uurida
 17. mediator
 18. chain of responsibility
 19. observer

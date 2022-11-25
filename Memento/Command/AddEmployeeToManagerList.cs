@@ -1,13 +1,11 @@
-using Command.Receiver;
+using Memento;
+using Memento.Memento;
 
-namespace Command.Command;
-
-//command implementation
 public class AddEmployeeToManagerList : ICommand
 {
     private readonly IEmployeeManagerRepo _employeeManagerRepo;
-    private readonly int _managerId;
-    private readonly Employee? _employee;
+    private int _managerId;
+    private Employee? _employee;
 
 
     public AddEmployeeToManagerList(IEmployeeManagerRepo employeeManagerRepo, int managerId, Employee? employee)
@@ -15,6 +13,17 @@ public class AddEmployeeToManagerList : ICommand
         _employeeManagerRepo = employeeManagerRepo;
         _managerId = managerId;
         _employee = employee;
+    }
+
+    public AddEmployeeToManagerListMemento CreateMemento()
+    {
+        return new AddEmployeeToManagerListMemento(_managerId, _employee);
+    }
+
+    public void RestoreMemento( AddEmployeeToManagerListMemento memento)
+    {
+        _managerId = memento.ManagerId;
+        _employee = memento.Employee;
     }
 
     public void Execute()

@@ -19,9 +19,9 @@
 ### Behavioural
 13. +template
 14. +strategy
-15. +command (invoke, undo) ?veel uurida
-16. +memento (command+) ?veel uurida
-17. mediator
+15. +command -(invoke, undo) ?veel uurida
+16. +memento - (command+) ?veel uurida
+17. +mediator - (chat Send, Receive) alternative MediatR package
 18. chain of responsibility
 19. observer
 20. state

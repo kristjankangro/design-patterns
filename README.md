@@ -24,7 +24,7 @@
 17. +mediator - (chat Send, Receive) alternative MediatR package -> eliminates direct connections alltogether
 18. +chain of responsibility -> passes a request along a chain of receivers
 19. +observer -> allows receivers to subscribe/unsubsribe
-20. state
+20. +state -> change state on condition
 21. iterator
 22. visitor
 23. interpreter

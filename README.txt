@@ -25,8 +25,8 @@ Behavioural
 18. +chain of responsibility -> passes a request along a chain of receivers
 19. +observer -> allows receivers to subscribe/unsubsribe
 20. +state -> change state on condition
-21. iterator
-22. visitor
+21. +iterator
+22. +visitor
 23. interpreter
 
 

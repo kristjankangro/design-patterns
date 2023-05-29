@@ -4,6 +4,8 @@ namespace KristjanDev;
 /**
  * more changes 111121, 3. muudatus
  * neljas muutus
+ *
+ * esimene mutuus dev2's
  */
 
 

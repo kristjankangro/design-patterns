@@ -1,7 +1,13 @@
 namespace KristjanDev;
 
 
-//more changes 111121, 3. muudatus
+/**
+ * more changes 111121, 3. muudatus
+ * neljas muutus
+ */
+
+
+
 public static class TranslationObjectService
 {
     public static TranslationDto GetObject(ITranslationDtoGetter objectClass)

@@ -17,7 +17,7 @@ namespace KristjanDev;
  * viies
  */
 
-
+//master 1
 
 public static class TranslationObjectService
 {

@@ -1,4 +1,6 @@
 namespace KristjanDev;
+//masteri muudatus
+
 
 public static class TranslationObjectService
 {

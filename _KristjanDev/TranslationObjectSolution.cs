@@ -33,6 +33,11 @@ public static class TranslationObjectService
     {
         return objectClass.Get();
     }
+
+    public static string ToString()
+    {
+        return "";
+    }
 }
 
 

@@ -11,6 +11,11 @@ public static class TranslationObjectService
     {
         return "";
     }
+
+    public static void IsActive()
+    {
+        
+    }
 }
 
 public class SomeImplementation2
@@ -25,6 +30,8 @@ public class TranslationDto
     public string EN;
     public string RU;
     public string Key;
+
+    public string kasutu;
 }
 
 public interface ITranslationDtoGetter

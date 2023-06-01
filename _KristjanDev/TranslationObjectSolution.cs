@@ -11,6 +11,11 @@ public static class TranslationObjectService
     {
         return "";
     }
+
+    public static void IsActive()
+    {
+        
+    }
 }
 
 

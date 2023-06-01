@@ -25,6 +25,8 @@ public class TranslationDto
     public string EN;
     public string RU;
     public string Key;
+
+    public string kasutu;
 }
 
 public interface ITranslationDtoGetter

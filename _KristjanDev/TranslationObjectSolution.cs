@@ -1,4 +1,12 @@
 namespace KristjanDev;
+/// <summary>
+/// nüüd proovin nii teha, et branch
+/// master
+/// master sync brnachi
+/// branchis veel üks muduatus
+/// ja lõpuks branch masterisse
+/// </summary>
+
 
 public static class TranslationObjectService
 {

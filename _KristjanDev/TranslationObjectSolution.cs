@@ -1,28 +1,4 @@
 namespace KristjanDev;
-/**
- * 1. muudatus main 1
- * 2. muudatus dev > 1
- * 3. muudatus dev > 2
- * 4. muudatus main
- */
-
-
-//master muudatus
-/**
- * more changes 111121, 3. muudatus
- * neljas muutus
- *
- * esimene mutuus dev2's
- *
- * viies
- */
-
-//branch1
-//branch2
-//...
-//branch3
-//branch4
-
 
 public static class TranslationObjectService
 {

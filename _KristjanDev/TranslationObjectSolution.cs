@@ -3,7 +3,7 @@ namespace KristjanDev;
 /// nüüd proovin nii teha, et branch
 /// master
 /// master sync brnachi
-/// branchis veel üks muduatus
+/// branchis veel üks muduatus -> nüüd tuleb see
 /// ja lõpuks branch masterisse
 /// </summary>
 

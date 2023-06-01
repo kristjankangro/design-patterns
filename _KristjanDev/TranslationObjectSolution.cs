@@ -7,6 +7,8 @@ namespace KristjanDev;
 /// ja lõpuks branch masterisse
 /// </summary>
 
+//masteri muudatus
+
 
 public static class TranslationObjectService
 {

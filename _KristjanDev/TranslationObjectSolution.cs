@@ -13,6 +13,11 @@ public static class TranslationObjectService
     }
 }
 
+public class SomeImplementation
+{
+    private bool IsLocked;
+}
+
 
 public class TranslationDto
 {

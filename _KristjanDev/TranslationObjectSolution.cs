@@ -1,5 +1,5 @@
 namespace KristjanDev;
-/*branch sai valmis*/
+/*branch sai valmis 2*/
 
 
 public static class TranslationObjectService

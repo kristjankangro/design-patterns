@@ -10,7 +10,7 @@
 
         public static Logger Instance => _lazyLogger.Value;
 
-        public void Log(string message)
+        public static void Log(string message)
         {
             Console.WriteLine($"Message to log: {message} ");
         }

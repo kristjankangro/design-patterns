@@ -1,14 +1,5 @@
 namespace KristjanDev;
-/// <summary>
-/// nüüd proovin nii teha, et branch
-/// master
-/// master sync brnachi
-/// branchis veel üks muduatus -> nüüd tuleb see
-/// 
-/// ja lõpuks branch masterisse
-/// </summary>
-
-//masteri muudatus
+/*branch sai valmis*/
 
 
 public static class TranslationObjectService
